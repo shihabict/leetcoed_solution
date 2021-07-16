@@ -1,16 +1,22 @@
-class Solution:
-    def isPalindrome(self, x: int) -> bool:
-        if x < 0:
-            return False
+k = 'bcab'
+li = []
+x = len(k)
+for i in range(0,x):
+    li.append(k[i])
 
-        input_num = x
-        num = 0
-        while x > 0:
-            num = num * 10 + x % 10
-            x = x // 10
-        return num == input_num
+print("List is : ",li)
 
 
-sol = Solution()
-print(sol.isPalindrome(-121))
+for i in range(0,x):
+    for j in range(0,x):
+        if li[i]<li[j]:
+            temp = li[i]
+            li[i]=li[j]
+            li[j]=temp
+j=""
+print(li)
 
+for i in range(0,x):
+    j = j+li[i]
+
+print("After sorting String is : ",j)
