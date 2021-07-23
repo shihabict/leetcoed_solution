@@ -15,11 +15,11 @@ class Solution:
         map = {}
         max_length = start = 0
         for i in range(len(s)):
-            if s[i] in map and start<map[s[i]]:
+            if s[i] in map and start < map[s[i]]:
                 start = map[s[i]] + 1
                 print(f"Start :{start}")
             else:
-                max_length =max(max_length,i-start+1)
+                max_length = max(max_length, i - start + 1)
                 print(f"max : {max_length}")
             map[s[i]] = i
             print(map)
