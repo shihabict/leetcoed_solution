@@ -10,4 +10,4 @@ class Solution:
 
 
 sol = Solution()
-print(sol.decompressRLElist([1,1,2,3]))
+print(sol.decompressRLElist([1, 1, 2, 3]))

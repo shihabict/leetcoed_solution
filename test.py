@@ -1,6 +1,4 @@
-binary1 = "1100"
-binary2 = "011"
-
-integer_sum = int(binary1, 2) + int(binary2, 2)
-binary_sum = bin(integer_sum)
-print(binary_sum)
+result = (3.18*19)+(3.64*20)+(3.59*18.75)+(3.65*21)+(3.74*21.75)+(3.85*17.75)+(3.85*23)+(3.85*16.75)
+result2 = (3.43*19)+(3.58*20)+(3.76*18.75)+(3.70*21)+(3.59*21.75)+(3.95*17.75)+(3.89*23)+(3.69*16.75)
+print(f'Touhida AKter :{result/160}')
+print(f"Shihab Uddin :{result2/160}")

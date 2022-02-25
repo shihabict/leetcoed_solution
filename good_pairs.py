@@ -9,4 +9,4 @@ class Solution:
 
 
 sol = Solution()
-print(sol.numIdenticalPairs([1,1,1,1]))
+print(sol.numIdenticalPairs([1, 1, 1, 1]))
